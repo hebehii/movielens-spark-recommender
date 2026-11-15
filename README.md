@@ -90,3 +90,9 @@ Spark 负责模型训练；导出因子后，以 NumPy 分批矩阵乘法计算�
 - 原始数据：[MovieLens 官方下载](https://grouplens.org/datasets/movielens/1m/)。
 
 MovieLens 原始许可要求在未经单独许可时不再分发数据，因此本仓库通过脚本从官方地址获取原始数据，并排除原始评分的逐条副本。
+
+## 9. 模型 ZIP 下载
+
+[下载显式与隐式 ALS 模型 ZIP](https://github.com/hebehii/movielens-spark-recommender/raw/refs/heads/main/downloads/als-models.zip) · [SHA-256 校验](downloads/checksums.json)。
+
+完整项目可使用 GitHub 的 Code → Download ZIP 获取。原始评分数据仍由复现脚本从官方地址下载。
