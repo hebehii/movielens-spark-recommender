@@ -1,0 +1,11 @@
+{
+  "rank": 10,
+  "regParam": 0.1,
+  "maxIter": 10,
+  "fit_seconds": 3.5611923490000663,
+  "val_rmse": 0.8697119621701997,
+  "val_mae": 0.693062866744179,
+  "val_predicted": 23840,
+  "val_total": 100020,
+  "coverage": 0.2383523295340932
+}

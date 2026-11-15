@@ -1,0 +1,5 @@
+{
+  "explicit_100_scores": "PASS",
+  "implicit_100_scores": "PASS",
+  "absolute_tolerance": 1e-05
+}

@@ -1,0 +1,87 @@
+{
+  "best": {
+    "rank": 10,
+    "regParam": 0.1,
+    "maxIter": 10,
+    "fit_seconds": 3.5611923490000663,
+    "val_rmse": 0.8697119621701997,
+    "val_mae": 0.693062866744179,
+    "val_predicted": 23840,
+    "val_total": 100020,
+    "coverage": 0.2383523295340932
+  },
+  "final_fit_seconds": 4.082303287000059,
+  "trainval_ratings": 900188,
+  "test_ratings": 100021,
+  "warm_test_ratings": 95723,
+  "cold_test_ratings": 4298,
+  "warm_coverage": 0.9570290239049799,
+  "ranking_users": 1158,
+  "ranking_test_positives": 54452,
+  "ranking_eligible_positives": 52063,
+  "ranking_catalog_size": 3678,
+  "generated_users": 6011,
+  "generated_recommendations": 60110,
+  "scoring_seconds": 7.950439566999989,
+  "seen_overlap": 0,
+  "rating_metrics": [
+    {
+      "cohort": "all_test",
+      "model": "Global mean",
+      "rmse": 1.089293851024139,
+      "mae": 0.9024768876294768,
+      "n": 100021
+    },
+    {
+      "cohort": "all_test",
+      "model": "Item mean",
+      "rmse": 0.9542587186530155,
+      "mae": 0.7555823864716433,
+      "n": 100021
+    },
+    {
+      "cohort": "all_test",
+      "model": "ALS + fallback",
+      "rmse": 0.8996286766681169,
+      "mae": 0.714401329425154,
+      "n": 100021
+    },
+    {
+      "cohort": "warm_test",
+      "model": "Global mean",
+      "rmse": 1.088918578904061,
+      "mae": 0.901999853624786,
+      "n": 95723
+    },
+    {
+      "cohort": "warm_test",
+      "model": "Item mean",
+      "rmse": 0.9530390268710419,
+      "mae": 0.7543084960079319,
+      "n": 95723
+    },
+    {
+      "cohort": "warm_test",
+      "model": "ALS",
+      "rmse": 0.89580021279681,
+      "mae": 0.7112783934531969,
+      "n": 95723
+    }
+  ],
+  "ranking_metrics": [
+    {
+      "model": "ALS",
+      "precision_at_10": 0.041364421416234885,
+      "recall_at_10": 0.0129506001736338,
+      "ndcg_at_10": 0.03301224640880431,
+      "users": 1158
+    },
+    {
+      "model": "Popular",
+      "precision_at_10": 0.19473229706390327,
+      "recall_at_10": 0.05683313532219529,
+      "ndcg_at_10": 0.2122808174613609,
+      "users": 1158
+    }
+  ]
+}

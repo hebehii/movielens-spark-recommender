@@ -1,0 +1,16 @@
+[
+  {
+    "model": "als",
+    "rank": 10,
+    "factor_consistency": "PASS",
+    "users": 6011,
+    "items": 3678
+  },
+  {
+    "model": "implicit_als",
+    "rank": 40,
+    "factor_consistency": "PASS",
+    "users": 6011,
+    "items": 3678
+  }
+]

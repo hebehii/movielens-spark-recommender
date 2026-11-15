@@ -1,0 +1,9 @@
+{
+  "raw_dataset_count": "PASS",
+  "time_split_and_test_membership": "PASS",
+  "rating_metrics_recomputed": "PASS",
+  "no_seen_or_duplicate_recommendations": "PASS",
+  "implicit_ranking_recomputed": "PASS",
+  "equal_ranking_user_cohort": "PASS",
+  "performance_three_repeats": "PASS"
+}

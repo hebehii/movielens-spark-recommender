@@ -1,0 +1,12 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/15 13:26:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+{"stage": "implicit_tuning", "rank": 20, "alpha": 1.0}
+{"stage": "implicit_tuning", "rank": 20, "alpha": 10.0}
+{"stage": "implicit_tuning", "rank": 20, "alpha": 40.0}
+{"stage": "implicit_tuning", "rank": 40, "alpha": 1.0}
+{"stage": "implicit_tuning", "rank": 40, "alpha": 10.0}
+{"stage": "implicit_tuning", "rank": 40, "alpha": 40.0}
+{"stage": "implicit_complete", "best": {"rank": 40, "alpha": 1.0, "regParam": 0.1, "maxIter": 10, "fit_seconds": 5.603889847000005, "precision_at_10": 0.1113821138211382, "recall_at_10": 0.0701901541628206, "ndcg_at_10": 0.13210883929277212, "users": 492, "eligible_positives": 12648}, "test": {"precision_at_10": 0.20664939550949915, "recall_at_10": 0.07652522578424978, "ndcg_at_10": 0.231834329138214, "users": 1158, "eligible_positives": 52063}, "final_fit_seconds": 6.164974504999918, "generated_users": 6011, "generated_recommendations": 60110, "seen_overlap": 0, "application_id": "local-1794720398688", "catalog_size": 3678, "feedback_definition": "preference=1 for rating>=4, otherwise 0; confidence=1+alpha*preference"}

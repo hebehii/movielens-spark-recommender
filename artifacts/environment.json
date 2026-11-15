@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "spark": "4.0.1",
+  "java": "21.0.13",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "spark_master": "local[4]",
+  "driver_memory": "4g",
+  "shuffle_partitions": 4,
+  "default_parallelism": 4,
+  "application_id": "local-1794720094828",
+  "cpu_quota_cores": 4,
+  "memory_limit_gib": 16,
+  "seed": 42,
+  "elapsed_seconds": 117.21270137200008,
+  "performance_repeats": 3,
+  "completed_utc": "2026-11-15T05:23:29.273629+00:00"
+}

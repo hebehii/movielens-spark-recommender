@@ -1,0 +1,26 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/15 13:21:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+{"stage": "spark_ready", "application_id": "local-1794720094828", "ui": "http://localhost:4040"}
+{"stage": "data_ready", "dataset": {"name": "MovieLens 1M", "url": "https://grouplens.org/datasets/movielens/1m/", "download_url": "https://files.grouplens.org/datasets/movielens/ml-1m.zip", "archive_sha256": "a6898adb50b9ca05aa231689da44c217cb524e7ebd39d264c56e2832f2c54e20", "ratings_sha256": "506d64ca44484487c11dc2d9a28de5c54948213e6b96285e298afe28d6ea4e0f", "raw_ratings": 1000209, "clean_ratings": 1000209, "invalid_records": 0, "duplicate_pairs": 0, "missing_movie_records": 0, "users": 6040, "rated_movies": 3706, "catalog_movies": 3883, "mean_rating": 3.581564426422119, "sparsity": 0.9553163743776871, "min_timestamp": 956703932, "max_timestamp": 1046454590, "split": {"method": "global chronological 80/10/10, timestamp <= boundary", "t80": 975768738, "t90": 978133376, "train": 800168, "validation": 100020, "test": 100021}}}
+{"stage": "tuning", "rank": 10, "regParam": 0.01, "completed": 0}
+{"stage": "tuning", "rank": 10, "regParam": 0.1, "completed": 1}
+{"stage": "tuning", "rank": 20, "regParam": 0.01, "completed": 2}
+{"stage": "tuning", "rank": 20, "regParam": 0.1, "completed": 3}
+{"stage": "tuning", "rank": 40, "regParam": 0.01, "completed": 4}
+{"stage": "tuning", "rank": 40, "regParam": 0.1, "completed": 5}
+{"stage": "final_training", "best": {"rank": 10, "regParam": 0.1, "maxIter": 10, "fit_seconds": 3.5611923490000663, "val_rmse": 0.8697119621701997, "val_mae": 0.693062866744179, "val_predicted": 23840, "val_total": 100020, "coverage": 0.2383523295340932}, "trainval": 900188}
+{"stage": "recommendation_scoring", "users": 6011, "items": 3678, "candidates": "all trained items minus seen"}
+{"stage": "evaluation_complete", "metrics": {"best": {"rank": 10, "regParam": 0.1, "maxIter": 10, "fit_seconds": 3.5611923490000663, "val_rmse": 0.8697119621701997, "val_mae": 0.693062866744179, "val_predicted": 23840, "val_total": 100020, "coverage": 0.2383523295340932}, "final_fit_seconds": 4.082303287000059, "trainval_ratings": 900188, "test_ratings": 100021, "warm_test_ratings": 95723, "cold_test_ratings": 4298, "warm_coverage": 0.9570290239049799, "ranking_users": 1158, "ranking_test_positives": 54452, "ranking_eligible_positives": 52063, "ranking_catalog_size": 3678, "generated_users": 6011, "generated_recommendations": 60110, "scoring_seconds": 7.950439566999989, "seen_overlap": 0, "rating_metrics": [{"cohort": "all_test", "model": "Global mean", "rmse": 1.089293851024139, "mae": 0.9024768876294768, "n": 100021}, {"cohort": "all_test", "model": "Item mean", "rmse": 0.9542587186530155, "mae": 0.7555823864716433, "n": 100021}, {"cohort": "all_test", "model": "ALS + fallback", "rmse": 0.8996286766681169, "mae": 0.714401329425154, "n": 100021}, {"cohort": "warm_test", "model": "Global mean", "rmse": 1.088918578904061, "mae": 0.901999853624786, "n": 95723}, {"cohort": "warm_test", "model": "Item mean", "rmse": 0.9530390268710419, "mae": 0.7543084960079319, "n": 95723}, {"cohort": "warm_test", "model": "ALS", "rmse": 0.89580021279681, "mae": 0.7112783934531969, "n": 95723}], "ranking_metrics": [{"model": "ALS", "precision_at_10": 0.041364421416234885, "recall_at_10": 0.0129506001736338, "ndcg_at_10": 0.03301224640880431, "users": 1158}, {"model": "Popular", "precision_at_10": 0.19473229706390327, "recall_at_10": 0.05683313532219529, "ndcg_at_10": 0.2122808174613609, "users": 1158}]}}
+{"stage": "performance", "repeat": 1, "input_partitions": 2}
+{"stage": "performance", "repeat": 1, "input_partitions": 4}
+{"stage": "performance", "repeat": 1, "input_partitions": 8}
+{"stage": "performance", "repeat": 2, "input_partitions": 2}
+{"stage": "performance", "repeat": 2, "input_partitions": 4}
+{"stage": "performance", "repeat": 2, "input_partitions": 8}
+{"stage": "performance", "repeat": 3, "input_partitions": 2}
+{"stage": "performance", "repeat": 3, "input_partitions": 4}
+{"stage": "performance", "repeat": 3, "input_partitions": 8}
+{"stage": "complete", "elapsed_seconds": 117.21270137200008}

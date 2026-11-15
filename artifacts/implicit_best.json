@@ -1,0 +1,12 @@
+{
+  "rank": 40,
+  "alpha": 1.0,
+  "regParam": 0.1,
+  "maxIter": 10,
+  "fit_seconds": 5.603889847000005,
+  "precision_at_10": 0.1113821138211382,
+  "recall_at_10": 0.0701901541628206,
+  "ndcg_at_10": 0.13210883929277212,
+  "users": 492,
+  "eligible_positives": 12648
+}

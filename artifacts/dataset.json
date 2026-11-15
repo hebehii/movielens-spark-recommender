@@ -1,0 +1,27 @@
+{
+  "name": "MovieLens 1M",
+  "url": "https://grouplens.org/datasets/movielens/1m/",
+  "download_url": "https://files.grouplens.org/datasets/movielens/ml-1m.zip",
+  "archive_sha256": "a6898adb50b9ca05aa231689da44c217cb524e7ebd39d264c56e2832f2c54e20",
+  "ratings_sha256": "506d64ca44484487c11dc2d9a28de5c54948213e6b96285e298afe28d6ea4e0f",
+  "raw_ratings": 1000209,
+  "clean_ratings": 1000209,
+  "invalid_records": 0,
+  "duplicate_pairs": 0,
+  "missing_movie_records": 0,
+  "users": 6040,
+  "rated_movies": 3706,
+  "catalog_movies": 3883,
+  "mean_rating": 3.581564426422119,
+  "sparsity": 0.9553163743776871,
+  "min_timestamp": 956703932,
+  "max_timestamp": 1046454590,
+  "split": {
+    "method": "global chronological 80/10/10, timestamp <= boundary",
+    "t80": 975768738,
+    "t90": 978133376,
+    "train": 800168,
+    "validation": 100020,
+    "test": 100021
+  }
+}
